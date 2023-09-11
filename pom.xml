@@ -40,6 +40,7 @@
                   <artifact>*:*</artifact>
                   <includes>
                     <include>be/vlaanderen/omgeving/data/id/conceptscheme/**</include>
+                    <include>be/vlaanderen/omgeving/data/id/item/vmm_indicator_fiches/**</include>
                   </includes>
                   <excludes>
                     <exclude>**/*json</exclude>
@@ -75,7 +76,7 @@
     <dependency>
       <groupId>be.vlaanderen.omgeving.data.id.graph</groupId>
       <artifactId>codelijst-chemische_stof</artifactId>
-      <version>2.1.1</version>
+      <version>3.0.0</version>
       <optional>true</optional>
     </dependency>
     <dependency>
@@ -105,7 +106,13 @@
     <dependency>
       <groupId>be.vlaanderen.omgeving.data.id.graph</groupId>
       <artifactId>codelijst-sommatie_stoffen</artifactId>
-      <version>2.0.0</version>
+      <version>3.0.0</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>be.vlaanderen.omgeving.data.id.graph</groupId>
+      <artifactId>vmm_indicator_fiches</artifactId>
+      <version>0.1.0</version>
       <optional>true</optional>
     </dependency>
   </dependencies>
